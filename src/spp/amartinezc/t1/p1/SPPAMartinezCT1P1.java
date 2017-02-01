@@ -29,11 +29,11 @@ public class SPPAMartinezCT1P1 {
         
         System.out.println("");
         System.out.println("Ingrese sus 5 calificaciones en base 10 ");
-        cal1= kb.nextInt();
-        cal2= kb.nextInt();
-        cal3= kb.nextInt();
-        cal4= kb.nextInt();
-        cal5= kb.nextInt();
+        cal1= kb.nextDouble();
+        cal2= kb.nextDouble();
+        cal3= kb.nextDouble();
+        cal4= kb.nextDouble();
+        cal5= kb.nextDouble();
         
         prom= (cal1+cal2+cal3+cal4+cal5)/5;
         System.out.println("Promedio="+prom);
