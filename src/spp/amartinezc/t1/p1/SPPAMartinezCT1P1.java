@@ -38,7 +38,7 @@ public class SPPAMartinezCT1P1 {
         prom= (cal1+cal2+cal3+cal4+cal5)/5;
         System.out.println("Promedio="+prom);
         
-        if (prom>7.0){
+        if (prom>=7.0){
             res="APROBADO";
         }else{
             res="REPROBADO";
